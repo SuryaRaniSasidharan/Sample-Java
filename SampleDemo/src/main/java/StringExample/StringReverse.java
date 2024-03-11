@@ -1,53 +1,43 @@
 package StringExample;
 
-public class StringReverse {
+class StringReverse
+{
 
 	public static void main(String[] args) {
-    String s="java";
-    System.out.println(s);
-    int length=s.length();
-    System.out.println(length);
+    String s1="java";
+    System.out.println(s1);
+    //int length=s1.length();
+    String reverse="";
+    for(int i=s1.length()-1;i>=0;i--)
+{
+	reverse+=s1.charAt(i);
+}
+    System.out.println(reverse);
     
-    char[] a=new char[length];
-    for(int i=0;i<length;i++)
-    {
-    	
-    	a[i]=s.charAt(length-1-i);
-    	
-    }
-    System.out.println(a);
-    
-    if(a.equals(s))
-    {
-    	  System.out.println("java is palindrome");
-    }
-    else {
-    	  System.out.println("java not a palindrome");
-    }
-    
-    String s1="malayalam";
-    System.out.println("malayalam");
+    String s2="malayalam";
+    System.out.println(s1);
+   String reverse1="";
+   for(int i=s2.length()-1;i>=0;i--)
+   {
+	   reverse1+=s2.charAt(i);  
+   }
+   System.out.println(reverse1);
    
-    int length1=s1.length();
-    
-    
-    char[] b=new char[length1];
-    String s2= s1;
-    
-    for(int j=0;j<length1;j++)
-    {
-     b[j]=s1.charAt(length1-1-j);
-    	
-    	
-    }
-    System.out.println(b);
-    if(s2.equals(b))
-    {
-    	 System.out.println("malayalam is palindrome");
-    }
-    else {
-    	System.out.println("malayalam not a palindrome");	
-    }
-	}
+   if(s1.equals(reverse))
+   {
+	   System.out.println(s1+" Palindrome");
+   }
+   else {
+	   System.out.println(s1+" Not Palindrome");
+   }
+   if(s2.equals(reverse1))
+   {
+	   System.out.println(s2+" Palindrome");
+   }
+   else
+   {
+	   System.out.println(s2+" Not Palindrome");
+   }
+	} 
 
 }
