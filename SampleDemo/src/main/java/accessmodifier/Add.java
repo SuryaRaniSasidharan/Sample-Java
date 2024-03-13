@@ -8,14 +8,14 @@ public class Add {
 	{
 		
 		int s=a+b;
-		System.out.println(s);
+		System.out.println("sum = "+s);
 		}
 
 	public static void main(String[]args)
 	{
 		Add obj=new Add();
 		obj.getAdd();
-		System.out.println(obj.a);
-		System.out.println(obj.b);
+		System.out.println("a = "+obj.a);
+		System.out.println("b = "+obj.b);
 	}
 }

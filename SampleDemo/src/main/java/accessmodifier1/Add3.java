@@ -8,8 +8,8 @@ public class Add3 extends Add {
 		
 		Add3 obj=new Add3();
 		obj.getAdd();
-		System.out.println(obj.a);
-		System.out.println(obj.b);
+		System.out.println("a = "+obj.a);
+		System.out.println("b = "+obj.b);
 
 	}
 
