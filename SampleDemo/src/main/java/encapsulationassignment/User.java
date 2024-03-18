@@ -12,8 +12,10 @@ public class User {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the pin number");
 		int pin=sc.nextInt();
+		
 		User obj1=new User();
 		Bank obj=new Bank();
+		
 		obj.setPin(pin);
 		obj.setValidpin(1001);
 		obj.setValidpin1(1212);
