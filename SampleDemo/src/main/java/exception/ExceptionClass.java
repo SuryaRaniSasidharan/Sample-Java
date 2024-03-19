@@ -1,6 +1,6 @@
 package exception;
 
-import javax.sql.rowset.serial.SQLOutputImpl;
+
 
 public class ExceptionClass {
 	
