@@ -11,14 +11,20 @@ public class Checked {
 		
 		
 	}
-	public static void sub() throws ArithmeticException
+	/*public static void sub() throws ArithmeticException
 	{
 		throw new ArithmeticException("substraction occur");
-	}
+	}*/
 
 	public static void main(String[] args) {
-		  sub();
+		//  sub();
+		try {
           sum();
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println(e);
+		}
          
 	}
 
