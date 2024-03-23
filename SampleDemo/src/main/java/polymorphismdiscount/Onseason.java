@@ -6,7 +6,7 @@
 
 
 
-package discountpolymorphism;
+package polymorphismdiscount;
 import java.util.*;
 
  

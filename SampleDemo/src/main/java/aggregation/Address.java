@@ -1,4 +1,4 @@
-package aggression;
+package aggregation;
 
 public class Address {
 	String housename;

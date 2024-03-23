@@ -1,4 +1,4 @@
-package aggression1;
+package aggregation1;
 
 public class Data {
 	String country;
