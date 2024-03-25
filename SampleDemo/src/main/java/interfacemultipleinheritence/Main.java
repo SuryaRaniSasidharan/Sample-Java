@@ -2,16 +2,6 @@ package interfacemultipleinheritence;
 
 public class Main implements AnimalEat,AnimalSound {
 	
-
-	public static void main(String[] args) {
-		
-		Main obj=new Main();
-		obj.eat();
-		obj.sound();
-	
-
-	}
-
 	@Override
 	public void sound() {
 		System.out.println("Animal is eating");
@@ -23,5 +13,15 @@ public class Main implements AnimalEat,AnimalSound {
 		
 		System.out.println("Animal is barking");
 	}
+	public static void main(String[] args) {
+		
+		Main obj=new Main();
+		obj.eat();
+		obj.sound();
+	
+
+	}
+
+	
 
 }
